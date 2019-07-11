@@ -38,7 +38,7 @@ RUN apk add --update --no-cache \
 
 ENV CC=/usr/bin/clang \
     CXX=/usr/bin/clang++ \
-    OPENCV_VERSION=3.4.2
+    OPENCV_VERSION=3.4.6
 
 # install ant from apache to avoid getting openjdk
 RUN cd /opt && \
